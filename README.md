@@ -29,19 +29,19 @@ OOB
 
 ### Graphics
 
-- Remove “Inject Nvidia” option
+- Remove "Inject Nvidia" option
 - Install Nvidia web driver `367.15.10.35f01` for macOS 10.12.3
 
-Disable “inject Nvidia” to make multiple displays work and remove “0mb” of vram in system report. Requires Nvidia web drivers to be installed first.
+Disable "inject Nvidia" to make multiple displays work and remove "0mb" of vram in system report. Requires Nvidia web drivers to be installed first.
 
 ### USB
 
-- Enable “Injection” setting
-- Enable “Ownership” setting
+- Enable "Injection" setting
+- Enable "Ownership" setting
 
 ### Audio
 
-- Enable “Inject” setting “1”
+- Enable "Inject" setting "1"
 - Install `ALC1150` and `100 Series Audio` kexts
 
 ### iMessage
