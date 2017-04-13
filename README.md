@@ -1,3 +1,7 @@
+# Hackintosh
+
+Assembly instructions for my current Hackintosh build. Here to help anyone who wants to do something similar, or myself in the likely event that I blow this thing up at some point in the future.
+
 # Config
 
 ## Hardware
