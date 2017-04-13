@@ -1,5 +1,12 @@
 # Config
 
+### Applications Used
+
+- Unibeast
+- Multibeast
+- KextBeast
+- Clover Configurator
+
 ### Boot Flags
 
 - `darkwake=0`
