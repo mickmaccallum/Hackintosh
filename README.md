@@ -1,4 +1,4 @@
-# Hackintosh
+# Hackintosh - High Sierra 10.13.1
 
 Assembly instructions for my current Hackintosh build. Here to help anyone who wants to do something similar, or myself in the likely event that I blow this thing up at some point in the future.
 
@@ -34,29 +34,29 @@ Assembly instructions for my current Hackintosh build. Here to help anyone who w
 
 ### Applications Used
 
-- Unibeast
-- Multibeast
+- Unibeast 8
+- Multibeast 10
 - KextBeast
 - Clover Configurator
 
 ### Boot Flags
 
-- `darkwake=0`
+- `darkwake`
 - `dart=0`
 - `nvda_drv=1`
 
 ### General
 
 - UEFI Boot Mode
-- FakeSMC v6.21-311 kext
-- FakeSMC Plugins v6.21-311 kext
-- FakeSMC HWMonitor Application v6.21-311 kext
-- SSDT options, enable Sandy Bridge i5/i7 Overclocked
-- Set SMBIOS system definition to `MacPro6,1`
+- FakeSMC kext
+- FakeSMC Plugins kext
+- FakeSMC HWMonitor Application kext
+- Set SMBIOS system definition to `iMac 17,1` (this is the one with a 6700k)
 - 3rd Party USB 3.0 kext
 - 7/8/9 Series USB Support kext
 - USB increase max port limit kext
 - SATA/eSATA/AHCI SATA kexts
+- NVidia Graphics Fixup
 
 ### Ethernet
 
@@ -71,10 +71,9 @@ Assembly instructions for my current Hackintosh build. Here to help anyone who w
 OOB on motherboard
 
 ### Graphics
-*Note: Need to update to 10.12.4 before installing the Nvidia drivers.*
 
 - Remove "Inject Nvidia" option
-- Install Nvidia web driver [378.05.05.05f01](http://www.nvidia.com/download/driverResults.aspx/117854/en-us) for macOS 10.12.4
+- Install Nvidia web driver [378.10.10.10.20.107](https://images.nvidia.com/mac/pkg/378/WebDriver-378.10.10.10.20.107.pkg) for macOS 10.13.1
 
 Disable "inject Nvidia" to make multiple displays work and remove "0mb" of vram in system report. Requires Nvidia web drivers to be installed first.
 
@@ -87,6 +86,10 @@ Disable "inject Nvidia" to make multiple displays work and remove "0mb" of vram 
 
 - Enable "Inject" setting "1"
 - Install `ALC1150` and `100 Series Audio` kexts
+
+### Clover Drivers
+
+- EmuVariableUefi.efi
 
 ### iMessage
 
