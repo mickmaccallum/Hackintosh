@@ -95,6 +95,5 @@ Disable "inject Nvidia" to make multiple displays work and remove "0mb" of vram 
 
 https://www.reddit.com/r/hackintosh/comments/2wohwn/getting_imessage_working_on_10102_generating/
 
-![All Done](/images/complete.jpg)
 
 
